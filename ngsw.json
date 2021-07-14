@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1626279458310,
+  "index": "/writing2/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/writing2/favicon.ico",
+        "/writing2/index.html",
+        "/writing2/main.d904fe21718104955c4c.js",
+        "/writing2/manifest.webmanifest",
+        "/writing2/polyfills.d53efd2b2465b77d505f.js",
+        "/writing2/runtime.72e7f86255f2036f8af2.js",
+        "/writing2/styles.31d6cfe0d16ae931b73c.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/writing2/assets/icons/icon-128x128.png",
+        "/writing2/assets/icons/icon-144x144.png",
+        "/writing2/assets/icons/icon-152x152.png",
+        "/writing2/assets/icons/icon-192x192.png",
+        "/writing2/assets/icons/icon-384x384.png",
+        "/writing2/assets/icons/icon-512x512.png",
+        "/writing2/assets/icons/icon-72x72.png",
+        "/writing2/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/writing2/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/writing2/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/writing2/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/writing2/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/writing2/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/writing2/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/writing2/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/writing2/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/writing2/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/writing2/index.html": "334a7eb34bcb98fffbc4feb0ab3b274b10e62d33",
+    "/writing2/main.d904fe21718104955c4c.js": "9a9d6a7df7dcd4d8dc7b27512dbcd8082f4e6576",
+    "/writing2/manifest.webmanifest": "3a2aa4d6575db208b47014c8413c8def0a81de6e",
+    "/writing2/polyfills.d53efd2b2465b77d505f.js": "0d56b8cf952f854edebecbc26e4700d99c0b964a",
+    "/writing2/runtime.72e7f86255f2036f8af2.js": "d2d94a2fe9baed5afa799034337623e461ccd5e4",
+    "/writing2/styles.31d6cfe0d16ae931b73c.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
